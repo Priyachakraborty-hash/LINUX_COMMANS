@@ -1,2 +1,2 @@
-This section contains some essential linux commands 
+This sections contains some essential linux commands 
 
