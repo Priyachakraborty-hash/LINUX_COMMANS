@@ -1,408 +1,844 @@
-#COMMANDS I EXECUTED FOR MY PROJECT 
- 1  who am i
-    2  pwd
-    3  ls
-    4  cd
-    5  cd /
-    6  pwd
-    7  ls
-    8  cd /bin
-    9  ls
-   10  cd /
-   11  ls
-   12  cd /sbin
-   13  ls
-   14  clear
-   15  cd /
-   16  cd /etc
-   17  ls
-   18  cd /tmp/
-   19  ls
-   20  cd /
-   21  cd /boot
-   22  ls
-   23  ls grub2
-   24  cd ..
-   25  cd /proc/
-   26  ls
-   27  uptime
-   28  free -m
-   29  exit
-   30  clear
-   31  pwd
-   32  ls
-   33  vim anaconda-ks.cfg
-   34  exit
-   35  ls -l
-   36  mkdir devdir
-   37  ls
-   38  ls =-l
-   39  ls -l
-   40  ls
-   41  file anacondaanaconda-ks.cfg
-   42  clear
-   43  file anaconda-ks.cfg
-   44  cd bin/
-   45  ls
-   46  cd /bin/
-   47  ls
-   48  file yum
-   49  cd /bin/pwd
-   50  cd /bin/pwd/
-   51  file /bin/pwd
-   52  cls
-   53  clear
-   54  ls
-   55  pwd
-   56  file /bin/pwd
-   57  ls pwd/
-   58  ls /pwd
-   59  ls /bin | grep pwd
-   60  file /bin/pwd
-   61  clear
-   62  cd /dev/
-   63  ls
-   64  ls -l
-   65  cls
-   66  clear
-   67  pwd
-   68  cd ..
-   69  ls
-   70  pwd
-   71  cd root/
-   72  ls
-   73  pwd
-   74  clear
-   75  ls
-   76  ls -l
-   77  ls -lr
-   78  ls -lh
-   79  ls -lt
-   80  ls -lrt
-   81  clear
-   82  pwd
-   83  ls
-   84  mkdir /opt/dev/ops/devops/test
-   85  mkdir -p /opt/dev/ops/devops/test
-   86  vim -p /opt/dev/ops/devops/test/commands.txt
-   87  ln -s /opt/dev/ops/devops/test/commands.txt cmds
-   88  -l
-   89  -i
-   90  ls -l
-   91  cat cmds
-   92  unlink cmds
-   93  ls -l
-   94  ln -s /opt/dev/ops/devops/test/commands.txt cmds
-   95  ls -l
-   96  clear
-   97  ls -l
-   98  ls -lt
-   99  ls -ltr
-  100  ls -ltr /etc/
-  101  vim /hostname
-  102  hostname centos.devops.in
-  103  logout
-  104  cr
-  105  clear
-  106  clearclear
-  107  clear
-  108  ls
-  109  sudo -i
-  110  ls
-  111  clear
-  112  ls
-  113  clear
-  114  ls
-  115  grep firewall anaconda-ks.cfg
-  116  grep Firewall anaconda-ks.cfg
-  117  grep -i firewall anaconda-ks.cfg
-  118  clear
-  119  ls
-  120  ls -l
-  121  vim anaconda-ks.cfg
-  122  vim < anaconda-ks.cfg
-  123  clear
-  124  grep -i firewall <anaconda-ks.cfg
-  125  grep -i firewall *
-  126  grep -iR firewall *
-  127  cp anaconda-ks.cfg devdir/mybootingfile.cfg
-  128  grep -iR firewall *
-  129  clear
-  130  grep -R SELINUX /etc/*
-  131  sudo -i
-  132  clear
-  133  history
-  134  clear
-  135  grep -R SELINUX /etc/*
-  136  vim /etc/selinux/config
-  137  grep -R SELINUX /etc/*
-  138  clear
-  139  ls
-  140  sudo -i
-  141  ls
-  142  clear
-  143  ls
-  144  grep -vi firewall anaconda-ks.cfg
-  145  clear
-  146  less anaconda-ks.cfg
-  147  more anaconda-ks.cfg
-  148  clear
-  149  less anaconda-ks.cfg
-  150  clear
-  151  head anaconda-ks.cfg
-  152  head -20anaconda-ks.cfg
-  153  head -20 anaconda-ks.cfg
-  154  head -2 anaconda-ks.cfg
-  155  clear
-  156  tail -2 anaconda-ks.cfg
-  157  tail  anaconda-ks.cfg
-  158  tail anaconda-ks.cfg
-  159  clear
-  160  tail anaconda-ks.cfg
-  161  cd /var/log
-  162  ls
-  163  tail yum.log
-  164  tail -f yum.log
-  165  sudo -i
-  166  tail -f /var/log/messages
-  167  clear
-  168  cat /etc/passwd
-  169  clear
-  170  cut -d: -f3 /etc/passwd
-  171  clera
-  172  clear
-  173  cut -d: -f3 /etc/passwd
-  174  cut -d: -f1 /etc/passwd
-  175  cut -d: -f3 /etc/passwd
-  176  clear
-  177  awk -F':' '{print $1}' /etc/passwd
-  178  clear
-  179  vim samplefile.txt
-  180  cat samplefile.txt
-  181  vim samplefile.txt
-  182  cat samplefile.txt
-  183  clear
-  184  cat samplefile.txt
-  185  sed 's/co19/c22/g' samplefile.txt
-  186  cat samplefile.txt
-  187  sed -i 's/co19/c22/g' samplefile.txt
-  188  sed -i 's/co19/c22/g' *
-  189  ls
-  190  clear
-  191  history
-  192  clear
-  193  uptime
-  194  cat /etc/passwd
-  195  lear
-  196  clear
-  197  uptime
-  198  cat etc/passwd
-  199  ls
-  200  logout
-  201  cat /etc/passwd
-  202  clear
-  203  uptime > /tmp/sysinfo.txt
-  204  cat /tmp/sysinfo.txt
-  205  ls
-  206  ls /tmp/sysinfo.txt
-  207  cat /tmp/sysinfo.txt
-  208  ls /tmp/sysinfo.txt
-  209  cat /tmp/sysinfo.txt
-  210  clear
-  211  cat /tmp/sysinfo.txt
-  212  uptime >> /tmp/sysinfo.txt
-  213  cat /tmp/sysinfo.txt
-  214  free -m
-  215  df -h
-  216  echo "Good morning "
-  217  clear
-  218  echo "################" >/tmp/sysinfo.txt
-  219  clear
-  220  echo "###########################" > tmp/sysinfo.txt
-  221  echo "###########################" > /tmp/sysinfo.txt
-  222  date
-  223  date > /tmp/sysinfo.txt
-  224  echo "##############################" >> /tmp/sysinfo.txt
-  225  uptime >> /tmp/sysinfo.txt
-  226  echo "##############################" >> /tmp/sysinfo.txt
-  227  df -h >> /tmp/sysinfo.txt
-  228  echo "##############################" >> /tmp/sysinfo.txt
-  229  cat /tmp/sysinfo.txt
-  230  clear
-  231  yum install vim -y > /dev/null
-  232  cat /dev/null
-  233  cat /tmp/sysinfo.txt
-  234  cat /dev/null > /tmp/sysinfo.txt
-  235  cat /tmp/sysinfo.txt
-  236  free -m > /dev/null
-  237  freeeeee -m > /dev/null
-  238  freeeeee -m 2 >> /tmp//error.log
-  239  cat /tmp//error.log
-  240  cat /tmp/error.log
-  241  free -m 1 >> /tmp/error.log
-  242  cat /tmp/error.log
-  243  free -m &>> /tmp/error.log
-  244  freesdsd -m  -m &>> /tmp/error.log
-  245  freesdsd -m  -m &>> /tmp//error.log
-  246  cat /tmp/error.log
-  247  cd /var/log/
-  248  ls
-  249  clear
-  250  free -m > /dev/null
-  251  clear
-  252  wc -l /etc/passwd
-  253  wc -l </etc/passwd
-  254  cd /etc/
-  255  ls
-  256  ls  | wc -l
-  257  clear
-  258  ls | grep host*
-  259  ls | grep host
-  260  tail /var/log/messages | grep -i vagrant
-  261  tail -20 /var/log/messages | grep -i vagrant
-  262  free -m
-  263  sudo -i
-  264  clear
-  265  whoami
-  266  cat /etc/passwd
-  267  head -1 /etc/passwd
-  268  clear
-  269  head -1 /etc/passwd
-  270  grep vagrant/etc/passwd
-  271  grep vagrant /etc/passwd
-  272  cat /etc/passwd
-  273  clear
-  274  cat /etc/group
-  275  clear
-  276  grep vagrant /etc/passwd
-  277  grep vagrant /etc/group
-  278  id vagrant
-  279  clear
-  280  useradd ansible
-  281  useradd jenkins
-  282  useradd aws
-  283  tail -4 /etc/passwd
-  284  tail -4 /etc/group
-  285  id ansible
-  286  cleaer
-  287  clear
-  288  group add devops
-  289  groupadd devops
-  290  usermod -aG devops ansible
-  291  id ansible
-  292  grep devops /etc/group
-  293  vim /etc/group
-  294  clear
-  295  id aws
-  296  passwd ansible
-  297  passwd aws
-  298  passwd jenkins
-  299  clear
-  300  su -ansible
-  301  su - ansible
-  302  last
-  303  who
-  304  yum install lsof
-  305  lsof -u aws
-  306  userdel aws
-  307  ls /home/
-  308  userdel -r jenkins
-  309  ls /home/
-  310  groupdel devops
-  311  userdel -r aws
-  312  ls /home/
-  313  userdel -r aws
-  314  clear
-  315  pwd
-  316  ls -l
-  317  clear
-  318  mkdir /opt/devopsdir
-  319  ls -l /opt/
-  320  groupadd devops
-  321  useradd ansible
-  322  useradd a
-  323  useradd je
-  324  useradd aw
-  325  useradd miles
-  326  vim /etc/group
-  327  id a
-  328  ls -ld /opt/devopsdir
-  329  ls -l
-  330  ls -ld /opt/devopsdir
-  331  clear
-  332  ls -ld /opt/devopsdir
-  333  chown -R ansible:devops /opt/devopsdir
-  334  chown -R a:devops /opt/devopsdir
-  335  ls -ld /opt/devopsdir
-  336  chmod o-r /opt/devopsdir
-  337  ls -ld /opt/devopsdir
-  338  chmod o-r /op/devopsdir
-  339  chmod o-r /opt/devopsdir
-  340  ls -ld /opt/devopsdir
-  341  chmod g+w /opt/devopsdir
-  342  ls -ld /opt/devopsdir
-  343  clear
-  344  su -miles
-  345  clear
-  346  su - miles
-  347  exit
-  348  mkdir /opt/webdata
-  349  ls -ld /opt/webdata/
-  350  chown aws.devops /opt/webdata/
-  351  chown aw.devops /opt/webdata/
-  352  ls -ld /opt/webdata/
-  353  chmod -R 770 /opt/webdata/
-  354  ls -ld /opt/webdata/
-  355  chmod -R 777 /opt/webdata/
-  356  ls -ld /opt/webdata/
-  357  chmod -R 754 /opt/webdata/
-  358  ls -ld /opt/webdata/
-  359  clear
-  360  chmod +x /opt/devops
-  361  chmod +x /opt/webdata/
-  362  ls -ld /opt/webdata/
-  363  visudo
-  364  ls -l /etc/sudoers
-  365  visudo
-  366  sudo -i
-  367  clear
-  368  yum install httpd -y
-  369  systemctl status httpd
-  370  systemctl start httpd
-  371  systemctl status httpd
-  372  systrmctl reload httpd
-  373  systemctl reload httpd
-  374  systemctl status httpd
-  375  sudo reboot
-  376  systemctl enable httpd
-  377  systemctl status sshd
-  378  clear
-  379  systemctl is-active httpd
-  380  systemctl status httpd
-  381  systemctl start httpd
-  382  systemctl is-active httpd
-  383  systemctl is-enabled httpd
-  384  clear
-  385  last
-  386  top
-  387  clear
-  422  sudo yum search java-openjdk
-  423  sudo yum install java-1.8.0-openjdk java-1.8.0-openjdk-devel -y
-  424  java -version
-  425  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
-  426  sudo curl -fsSO https://pkg.jenkins.io/redhat-stable/jenkins.repo -o /etc/yum.repos.d/jenkins.repo
-  427  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
-  428  sudo yum install jenkins -y
-  429  sudo curl -fsSL https://pkg.jenkins.io/redhat-stable/jenkins.repo -o /etc/yum.repos.d/jenkins.repo
-  430  sudo tee /etc/yum.repos.d/jenkins.repo > /dev/null << EOF
-  431  [jenkins]
-  432  name=Jenkins
-  433  baseurl=https://pkg.jenkins.io/redhat-stable
-  434  gpgcheck=1
-  435  gpgkey=https://pkg.jenkins.io/redhat-stable/jenkins.io.key
-  436  EOF
-  437  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
-  438  sudo yum clean all
-  439  sudo yum update -y
-  440  sudo yum install jenkins -y
-  441  history
+# Linux & DevOps Administration Learning Guide
+
+## Table of Contents
+1. [Overview](#overview)
+2. [Linux File System Structure](#linux-file-system-structure)
+3. [File & Directory Operations](#file--directory-operations)
+4. [Text Processing & Manipulation](#text-processing--manipulation)
+5. [User & Group Management](#user--group-management)
+6. [File Permissions & Ownership](#file-permissions--ownership)
+7. [Output Redirection](#output-redirection)
+8. [Package Management (YUM)](#package-management-yum)
+9. [System Services & Management](#system-services--management)
+10. [Jenkins Installation](#jenkins-installation)
+11. [Commands Reference](#commands-reference)
+12. [Learning Progress](#learning-progress)
+
+---
+
+## Overview
+
+This documentation covers practical **Linux system administration** and **DevOps** skills learned through hands-on command execution. Topics include file system navigation, user management, permissions, text processing, service management, and CI/CD tool setup.
+
+**Environment:** CentOS/RHEL-based Linux
+
+**Learning Goals:**
+- Master Linux file system and navigation
+- Manage users, groups, and permissions
+- Process and manipulate text files
+- Manage services and processes
+- Deploy and configure Jenkins CI/CD
+- Understand output redirection and piping
+
+---
+
+## Linux File System Structure
+
+### Directory Hierarchy
+
+```
+/
+├── /bin              # Essential user commands
+├── /sbin             # System administration binaries
+├── /boot             # Boot loader files & kernel
+├── /dev              # Device files
+├── /etc              # System configuration files
+├── /home             # User home directories
+├── /opt              # Optional software packages
+├── /proc             # Process information (virtual)
+├── /root             # Root user home directory
+├── /tmp              # Temporary files
+├── /var              # Variable data (logs, cache, etc.)
+└── /usr              # User programs & libraries
+```
+
+### Important Files
+
+| Path | Purpose |
+|------|---------|
+| `/etc/passwd` | User account information |
+| `/etc/group` | Group definitions |
+| `/etc/sudoers` | Sudo privilege configuration |
+| `/etc/selinux/config` | SELinux settings |
+| `/etc/hostname` | System hostname |
+| `/var/log/messages` | System log messages |
+| `/var/log/yum.log` | Package manager log |
+| `/boot/grub2` | GRUB bootloader configuration |
+
+### Examining File System
+
+```bash
+# Navigate directories
+cd /                    # Go to root
+cd /bin                 # Go to bin directory
+pwd                     # Print working directory
+ls                      # List directory contents
+
+# Explore specific directories
+ls /bin                 # View binary executables
+ls /sbin                # View system binaries
+ls /etc                 # View configuration files
+ls /proc                # View process information
+ls /dev                 # View device files
+ls /var/log             # View log files
+
+# Get file type information
+file /bin/pwd           # Show file type
+file anaconda-ks.cfg    # Identify file type
+```
+
+---
+
+## File & Directory Operations
+
+### Creating & Managing Directories
+
+```bash
+# Create single directory
+mkdir devdir
+
+# Create nested directories
+mkdir -p /opt/dev/ops/devops/test
+
+# List with details
+ls -l                   # Long format
+ls -lh                  # Human-readable sizes
+ls -lr                  # Recursive listing
+ls -lt                  # Sort by modification time
+ls -ltr                 # Reverse time sort (oldest first)
+ls -ld /opt/devopsdir   # Show directory info, not contents
+
+# Change directory
+cd ..                   # Go to parent
+cd /path/to/dir         # Absolute path
+cd                      # Go to home
+```
+
+### Viewing File Contents
+
+```bash
+# Simple viewing
+cat anaconda-ks.cfg             # Display entire file
+less anaconda-ks.cfg            # Page through file (interactive)
+more anaconda-ks.cfg            # Page through file (simple)
+
+# View specific lines
+head anaconda-ks.cfg            # First 10 lines (default)
+head -2 anaconda-ks.cfg         # First 2 lines
+head -20 anaconda-ks.cfg        # First 20 lines
+
+tail anaconda-ks.cfg            # Last 10 lines (default)
+tail -2 anaconda-ks.cfg         # Last 2 lines
+tail -f /var/log/messages       # Follow log in real-time
+
+# Count lines
+wc -l /etc/passwd               # Count total lines
+ls | wc -l                      # Count files in directory
+```
+
+### Copying & Linking Files
+
+```bash
+# Copy file
+cp anaconda-ks.cfg devdir/mybootingfile.cfg
+
+# Create symbolic link (shortcut)
+ln -s /opt/dev/ops/devops/test/commands.txt cmds
+
+# List link details
+ls -l                           # Shows link information
+
+# Remove link
+unlink cmds                     # Delete symbolic link
+```
+
+---
+
+## Text Processing & Manipulation
+
+### Filtering & Searching with grep
+
+```bash
+# Basic grep
+grep firewall anaconda-ks.cfg           # Case-sensitive search
+grep -i firewall anaconda-ks.cfg        # Case-insensitive (-i)
+grep -v firewall anaconda-ks.cfg        # Invert match (exclude)
+grep -vi firewall anaconda-ks.cfg       # Case-insensitive AND exclude
+
+# Recursive search
+grep -R SELINUX /etc/*                  # Search all files in /etc
+grep -iR firewall *                     # Case-insensitive recursive
+
+# With pipes
+tail -20 /var/log/messages | grep -i vagrant    # Search in output
+ls | grep host                          # Find files matching pattern
+```
+
+### Text Extraction with cut
+
+```bash
+# Extract fields from delimited file
+cut -d: -f1 /etc/passwd                 # Extract usernames
+cut -d: -f3 /etc/passwd                 # Extract UIDs
+
+# Syntax breakdown:
+# -d:     Use colon (:) as delimiter
+# -f1     Field 1
+```
+
+### Pattern Processing with awk
+
+```bash
+# Extract fields with awk
+awk -F':' '{print $1}' /etc/passwd      # Print first field (usernames)
+
+# Syntax breakdown:
+# -F':'   Use colon as field separator
+# $1      First field
+# $3      Third field
+```
+
+### Stream Editing with sed
+
+```bash
+# Preview changes (don't modify)
+sed 's/co19/c22/g' samplefile.txt       # Substitute (show result)
+
+# Modify file in-place
+sed -i 's/co19/c22/g' samplefile.txt    # Save changes to file
+
+# Bulk operations
+sed -i 's/co19/c22/g' *                 # Replace in all files
+
+# Syntax breakdown:
+# s/       Substitute command
+# co19     Search string
+# c22      Replacement string
+# g        Global (all occurrences)
+# -i       In-place editing
+```
+
+### Line Counting
+
+```bash
+wc -l /etc/passwd                       # Count lines
+wc -l </etc/passwd                      # Count lines from input
+```
+
+---
+
+## User & Group Management
+
+### Viewing User & Group Information
+
+```bash
+# User information
+cat /etc/passwd                         # All users on system
+cat /etc/group                          # All groups on system
+grep vagrant /etc/passwd                # Find specific user
+id vagrant                              # User ID and groups
+id ansible
+
+# Current user
+whoami                                  # Current logged-in user
+```
+
+### User Management Commands
+
+```bash
+# Create users
+useradd ansible                         # Add user
+useradd jenkins
+useradd aws
+
+# Check newly added users
+tail -4 /etc/passwd                     # View last 4 users added
+tail -4 /etc/group                      # View last 4 groups added
+
+# Set/Change passwords
+passwd ansible                          # Set password for user
+passwd jenkins
+
+# Switch users
+su - ansible                            # Switch to user (load profile)
+exit                                    # Exit to previous user
+
+# Get user info
+id ansible                              # Show user ID info
+```
+
+### Group Management Commands
+
+```bash
+# Create group
+groupadd devops                         # Add group
+
+# Add user to group
+usermod -aG devops ansible              # Add user to group (-a = append, -G = groups)
+
+# View group membership
+grep devops /etc/group                  # Show group members
+id ansible                              # Show user's groups
+
+# Delete group
+groupdel devops                         # Remove group
+
+# Edit group configuration
+vim /etc/group                          # Manual group editing
+```
+
+### User Deletion
+
+```bash
+# Delete user (keep home directory)
+userdel aws
+
+# Delete user with home directory
+userdel -r jenkins                      # Remove user & home files
+userdel -r aws
+
+# Verify deletion
+ls /home/                               # Check home directories
+```
+
+### Sudo Configuration
+
+```bash
+# Edit sudo permissions
+visudo                                  # Edit /etc/sudoers safely
+
+# View sudoers file
+ls -l /etc/sudoers                      # Check sudoers permissions
+
+# Usage example: Allow user to run commands without password
+# In visudo:
+# ansible ALL=(ALL) NOPASSWD: ALL
+```
+
+---
+
+## File Permissions & Ownership
+
+### Understanding Permissions
+
+```
+-rwxrwxr-x
+^ ^ ^ ^ ^
+| | | | \-- Others (other)
+| | | \---- Group
+| | \------ Owner (user)
+| \-------- File type (- = file, d = directory, l = link)
+\---------- This is part of metadata
+
+Permission Codes:
+r (read)    = 4
+w (write)   = 2
+x (execute) = 1
+```
+
+### Changing Ownership
+
+```bash
+# Change owner and group
+chown -R ansible:devops /opt/devopsdir      # Recursive ownership change
+chown aw.devops /opt/webdata/               # Alternative syntax (dot)
+
+# Verify changes
+ls -ld /opt/devopsdir                       # Show directory permissions
+```
+
+### Changing Permissions
+
+```bash
+# Using symbolic notation
+chmod o-r /opt/devopsdir                    # Remove read for others
+chmod g+w /opt/devopsdir                    # Add write for group
+chmod +x /opt/devops                        # Add execute for all
+
+# Using numeric notation
+chmod -R 770 /opt/webdata/                  # rwx for user & group, none for others
+chmod -R 777 /opt/webdata/                  # Full permissions for all
+chmod -R 754 /opt/webdata/                  # rwx=user, r-x=group, r--=others
+
+# Verify changes
+ls -ld /opt/webdata/                        # Show directory permissions
+
+# Permission Calculation:
+# 7 = 4+2+1 (rwx - full permissions)
+# 5 = 4+1   (r-x - read & execute)
+# 4 = 4     (r-- - read only)
+```
+
+### Practical Examples
+
+```bash
+# Create development directory
+mkdir /opt/devopsdir
+groupadd devops
+useradd a
+
+# Set ownership and permissions
+chown -R a:devops /opt/devopsdir            # Owner: user 'a', Group: 'devops'
+chmod g+w /opt/devopsdir                    # Add write permission for group
+chmod o-r /opt/devopsdir                    # Remove read permission for others
+
+# Result: User can do anything, Group can read/write, Others can't access
+```
+
+---
+
+## Output Redirection
+
+### Redirection Operators
+
+| Operator | Purpose | Example |
+|----------|---------|---------|
+| `>` | Redirect to file (overwrite) | `uptime > /tmp/sysinfo.txt` |
+| `>>` | Append to file | `uptime >> /tmp/sysinfo.txt` |
+| `2>` | Redirect errors | `command 2> /tmp/error.log` |
+| `&>>` | Append both stdout & stderr | `command &>> /tmp/error.log` |
+| `\|` | Pipe to command | `ls \| grep host` |
+
+### Practical Examples
+
+```bash
+# Overwrite file with output
+date > /tmp/sysinfo.txt                     # Write date to file (overwrite)
+echo "Good morning" > /tmp/greeting.txt     # Write text
+
+# Append to existing file
+uptime >> /tmp/sysinfo.txt                  # Append uptime
+echo "##############" >> /tmp/sysinfo.txt   # Append separator
+
+# Build system info file
+echo "###########################" > /tmp/sysinfo.txt
+date > /tmp/sysinfo.txt
+echo "##############################" >> /tmp/sysinfo.txt
+uptime >> /tmp/sysinfo.txt
+echo "##############################" >> /tmp/sysinfo.txt
+df -h >> /tmp/sysinfo.txt
+echo "##############################" >> /tmp/sysinfo.txt
+cat /tmp/sysinfo.txt                        # View final file
+
+# Redirect to null (suppress output)
+yum install vim -y > /dev/null              # Hide installation output
+free -m > /dev/null                         # Suppress command output
+cat /dev/null > /tmp/sysinfo.txt            # Clear file
+
+# Capture errors
+freeeeee -m 2 >> /tmp/error.log             # Redirect error output
+freesdsd -m -m &>> /tmp/error.log           # Capture all output & errors
+
+# Pipe examples
+ls | wc -l                                  # Count files
+ls | grep host                              # Filter files
+tail -20 /var/log/messages | grep -i vagrant  # Search recent logs
+```
+
+---
+
+## Package Management (YUM)
+
+### YUM Commands
+
+```bash
+# Search for packages
+sudo yum search java-openjdk                # Find Java packages
+
+# Install packages
+sudo yum install vim -y                     # Install with auto-yes
+sudo yum install httpd -y                   # Install Apache
+sudo yum install java-1.8.0-openjdk java-1.8.0-openjdk-devel -y
+
+# List installed packages
+yum list installed                          # Show all installed packages
+
+# Update system
+sudo yum update -y                          # Update all packages
+
+# Clean package cache
+sudo yum clean all                          # Clean yum cache
+```
+
+### Repository Management
+
+```bash
+# Add repository for Jenkins
+sudo tee /etc/yum.repos.d/jenkins.repo > /dev/null << EOF
+[jenkins]
+name=Jenkins
+baseurl=https://pkg.jenkins.io/redhat-stable
+gpgcheck=1
+gpgkey=https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+EOF
+
+# Import GPG key
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+```
+
+---
+
+## System Services & Management
+
+### Service Management with systemctl
+
+```bash
+# Check service status
+systemctl status httpd                      # Full service status
+systemctl is-active httpd                   # Check if running (exit code)
+systemctl is-enabled httpd                  # Check if auto-starts
+
+# Start/Stop services
+systemctl start httpd                       # Start service
+systemctl stop httpd                        # Stop service
+systemctl restart httpd                     # Restart service
+systemctl reload httpd                      # Reload configuration
+
+# Enable/Disable auto-start
+systemctl enable httpd                      # Enable on boot
+systemctl disable httpd                     # Disable on boot
+```
+
+### System Information
+
+```bash
+# Uptime and load
+uptime                                      # How long system running
+top                                         # Real-time process monitor
+
+# Memory usage
+free -m                                     # Free/used memory in MB
+
+# Disk usage
+df -h                                       # Disk usage (human-readable)
+
+# Process information
+lsof -u aws                                 # List open files by user
+last                                        # Login history
+who                                         # Currently logged-in users
+```
+
+### System Restart
+
+```bash
+sudo reboot                                 # Restart the system
+```
+
+---
+
+## Jenkins Installation
+
+### Prerequisites Check
+
+```bash
+# Verify Java is installed
+java -version                               # Check Java version
+```
+
+### Step-by-Step Installation
+
+#### 1. Install Java Development Kit
+
+```bash
+sudo yum search java-openjdk                # Find Java packages
+sudo yum install java-1.8.0-openjdk java-1.8.0-openjdk-devel -y
+java -version                               # Verify installation
+```
+
+#### 2. Add Jenkins Repository
+
+```bash
+# Option 1: Using tee (most reliable)
+sudo tee /etc/yum.repos.d/jenkins.repo > /dev/null << EOF
+[jenkins]
+name=Jenkins
+baseurl=https://pkg.jenkins.io/redhat-stable
+gpgcheck=1
+gpgkey=https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+EOF
+
+# Option 2: Using curl (alternative)
+sudo curl -fsSL https://pkg.jenkins.io/redhat-stable/jenkins.repo -o /etc/yum.repos.d/jenkins.repo
+```
+
+#### 3. Import GPG Key
+
+```bash
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+```
+
+#### 4. Update Package Cache and Install Jenkins
+
+```bash
+sudo yum clean all                          # Clean cache
+sudo yum update -y                          # Update packages
+sudo yum install jenkins -y                 # Install Jenkins
+```
+
+#### 5. Verify Jenkins Installation
+
+```bash
+java -version                               # Verify Java
+rpm -qa | grep jenkins                      # Verify Jenkins installed
+```
+
+### Jenkins Service Management
+
+```bash
+# Start Jenkins
+sudo systemctl start jenkins
+
+# Check status
+sudo systemctl status jenkins
+
+# Enable on boot
+sudo systemctl enable jenkins
+
+# Verify running
+sudo systemctl is-active jenkins
+```
+
+### Post-Installation
+
+```bash
+# Default Jenkins runs on port 8080
+# Access: http://your-server:8080
+
+# Initial setup password location:
+cat /var/lib/jenkins/secrets/initialAdminPassword
+
+# Jenkins home directory:
+/var/lib/jenkins
+```
+
+---
+
+## Commands Reference
+
+### File Navigation & Listing
+| Command | Purpose |
+|---------|---------|
+| `pwd` | Print working directory |
+| `cd [path]` | Change directory |
+| `ls` | List files |
+| `ls -l` | Long format listing |
+| `ls -lh` | Long format with human-readable sizes |
+| `ls -lt` | Sort by modification time |
+| `ls -ltr` | Reverse time sort |
+
+### File Viewing & Searching
+| Command | Purpose |
+|---------|---------|
+| `cat [file]` | Display file contents |
+| `head [file]` | Show first 10 lines |
+| `head -n [file]` | Show first n lines |
+| `tail [file]` | Show last 10 lines |
+| `tail -f [file]` | Follow file (live updates) |
+| `less [file]` | Page through file |
+| `grep [pattern] [file]` | Search for pattern |
+| `grep -i [pattern] [file]` | Case-insensitive search |
+| `grep -R [pattern] [dir]` | Recursive search |
+
+### Text Processing
+| Command | Purpose |
+|---------|---------|
+| `cut -d: -f1 [file]` | Extract fields |
+| `awk -F':' '{print $1}' [file]` | Pattern processing |
+| `sed 's/old/new/g' [file]` | Stream editing |
+| `sed -i 's/old/new/g' [file]` | In-place edit |
+| `wc -l [file]` | Count lines |
+
+### File Operations
+| Command | Purpose |
+|---------|---------|
+| `mkdir [dir]` | Create directory |
+| `mkdir -p [path]` | Create nested directories |
+| `cp [src] [dest]` | Copy file |
+| `ln -s [target] [link]` | Create symbolic link |
+| `unlink [link]` | Remove symbolic link |
+| `file [file]` | Show file type |
+
+### User & Group Management
+| Command | Purpose |
+|---------|---------|
+| `useradd [user]` | Create user |
+| `userdel [user]` | Delete user |
+| `userdel -r [user]` | Delete user + home |
+| `passwd [user]` | Set password |
+| `groupadd [group]` | Create group |
+| `groupdel [group]` | Delete group |
+| `usermod -aG [group] [user]` | Add user to group |
+| `id [user]` | Show user ID info |
+| `su - [user]` | Switch user |
+| `whoami` | Show current user |
+
+### Permissions & Ownership
+| Command | Purpose |
+|---------|---------|
+| `chown [owner:group] [file]` | Change ownership |
+| `chown -R [owner:group] [dir]` | Recursive ownership |
+| `chmod [mode] [file]` | Change permissions |
+| `chmod -R [mode] [dir]` | Recursive permissions |
+| `ls -ld [dir]` | Show directory permissions |
+
+### System & Service Management
+| Command | Purpose |
+|---------|---------|
+| `systemctl start [service]` | Start service |
+| `systemctl stop [service]` | Stop service |
+| `systemctl status [service]` | Check status |
+| `systemctl enable [service]` | Enable on boot |
+| `systemctl is-active [service]` | Check if running |
+| `uptime` | System uptime |
+| `free -m` | Memory usage |
+| `df -h` | Disk usage |
+| `top` | Process monitor |
+| `last` | Login history |
+| `who` | Logged-in users |
+
+### Package Management
+| Command | Purpose |
+|---------|---------|
+| `yum search [package]` | Search packages |
+| `yum install [package] -y` | Install package |
+| `yum update -y` | Update system |
+| `yum clean all` | Clean cache |
+| `rpm --import [url]` | Import GPG key |
+| `rpm -qa` | List all packages |
+
+### Input/Output Redirection
+| Operator | Purpose | Example |
+|----------|---------|---------|
+| `>` | Redirect (overwrite) | `echo "text" > file.txt` |
+| `>>` | Append | `echo "text" >> file.txt` |
+| `2>` | Redirect errors | `command 2> error.log` |
+| `&>>` | Append all output | `command &>> file.log` |
+| `\|` | Pipe to command | `cat file \| grep text` |
+
+---
+
+## Troubleshooting Tips
+
+### Common Issues
+
+**Issue: Permission Denied**
+```bash
+# Check file permissions
+ls -l /etc/passwd
+
+# Add execute permission
+chmod +x /path/to/file
+
+# Change ownership
+chown user:group /path/to/file
+```
+
+**Issue: Command not found**
+```bash
+# Ensure binary location
+which [command]
+
+# Check $PATH
+echo $PATH
+```
+
+**Issue: User already exists**
+```bash
+# Verify user exists
+grep [username] /etc/passwd
+
+# Use different username
+useradd [newusername]
+```
+
+**Issue: Jenkins won't start**
+```bash
+# Check logs
+tail -f /var/log/jenkins/jenkins.log
+
+# Verify Java installed
+java -version
+
+# Check service status
+systemctl status jenkins
+```
+
+---
+
+## Learning Progress
+
+### Skills Mastered ✓
+
+- [x] Linux file system navigation
+- [x] File viewing and editing (cat, less, vim)
+- [x] Directory and file operations (mkdir, cp, ln)
+- [x] Text processing (grep, sed, awk, cut)
+- [x] Output redirection and piping
+- [x] User and group management
+- [x] File permissions (chmod, chown)
+- [x] System information commands
+- [x] Package management (yum)
+- [x] Service management (systemctl)
+- [x] Jenkins CI/CD installation
+- [x] Log file monitoring
+
+### Next Steps to Explore
+
+- [ ] **Shell Scripting:** Bash scripts for automation
+- [ ] **Cron Jobs:** Schedule automated tasks
+- [ ] **Network Configuration:** IP, DNS, firewall
+- [ ] **Disk Management:** LVM, partitions, mounting
+- [ ] **Process Management:** Background jobs, signals
+- [ ] **SSH Keys:** Passwordless authentication
+- [ ] **Jenkins Pipelines:** Create CI/CD workflows
+- [ ] **Configuration Management:** Ansible, Puppet
+- [ ] **Docker Containers:** Containerization basics
+- [ ] **Monitoring & Logging:** ELK stack, Prometheus
+
+---
+
+## Quick Reference Cheat Sheet
+
+```bash
+# User Management
+useradd username
+userdel -r username
+groupadd groupname
+usermod -aG groupname username
+passwd username
+
+# Permissions
+chmod 755 /path/to/file          # rwxr-xr-x
+chown user:group /path/to/file
+
+# Text Searching
+grep -i "pattern" file
+grep -R "pattern" /directory
+sed -i 's/old/new/g' file
+
+# Output Redirection
+command > file                    # Overwrite
+command >> file                   # Append
+command 2>> error.log             # Redirect errors
+command | grep "pattern"          # Pipe
+
+# Service Management
+systemctl start service
+systemctl stop service
+systemctl enable service
+systemctl status service
+
+# System Info
+uptime
+free -m
+df -h
+top
+last
+```
+
+---
+
+
+**Status:** Active Learning Document  
+**Difficulty Level:** Intermediate  
+**Focus Areas:** System Administration, DevOps Fundamentals
